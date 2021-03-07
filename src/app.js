@@ -5,6 +5,7 @@ const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
 const app = express()
+const port = process.env.PORT || 3000
 
 // Define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public')
@@ -38,7 +39,7 @@ app.get('/help', (req, res) => {
         helpText: 'This application works using data fetched from actual weather API using weatherstack along with geocoding from Mapbox. ',
         title: 'Help',
         name: 'Parul Shrivastava',
-        instruction:'Kindly go to the weather page and put in the location which you would like to know the forecast.',
+        instruction:'Kindly go to the weather page and put in the location for which you would like to know the forecast.',
         relevant:'The application works on relevance. To get more accurate results try including city with state or country.'
 
     })
@@ -99,6 +100,6 @@ app.get('*', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('Server is up on port 3000.')
+app.listen(port, () => {
+    console.log('Server is up on port '+ port)
 })
