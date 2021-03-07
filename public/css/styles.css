@@ -1,0 +1,90 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../img/clouds.JPG');
+    background-size: cover;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 100px;
+    float:left;
+    margin-left: 5px;
+}
+input{
+    border: 2px solid #2e2b2b;
+    padding: 10px;
+    font-size: 15px;
+}
+button{
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #0a0101;
+    background: #888888;
+    color: white;
+    padding:8px;
+}
+
+h3{
+    padding:8px;
+    border:2px solid rosybrown;
+    border-radius: 1px;
+}
+.help-para{
+    padding: 10px;
+  border-radius:4px ;
+  background:rgb(243, 237, 237,0.7);  
+}
+#message-1{
+    padding:10px;
+    border-radius: 4px;
+    font : 20px Arial,sans-seriff;
+}
+#message-2{
+    padding:10px;
+    border-radius: 4px;
+    font : 25px Arial,sans-seriff;
+}
+.about-para{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(240, 231, 231,0.5);
+    border-radius: 5px;
+    padding:5px;
+}
+h4{
+    font-size:20px;
+}
