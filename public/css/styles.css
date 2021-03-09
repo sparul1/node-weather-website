@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('../img/clouds.png');
+    background-image: url('../img/clouds1.png');
     background-size: cover;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 footer {
-    color: #888888;
+    color: #3e4552;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
